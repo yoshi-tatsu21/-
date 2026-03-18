@@ -1,0 +1,5 @@
+{
+  "name": "お弁当注文管理くん (Bento Order Manager)",
+  "description": "お弁当の注文集計、支払い管理、注文状況の共有を効率化するアプリです。",
+  "requestFramePermissions": []
+}
