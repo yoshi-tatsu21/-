@@ -112,7 +112,7 @@ async function startServer() {
   const app = express();
   const httpServer = createServer(app);
   const io = new Server(httpServer);
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Check for representative and cleanup every minute
   setInterval(() => {
