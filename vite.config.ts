@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
     // GitHub Pages (project site) needs the repository name as base path.
     // If your repo name is "-", keep "/-/".
     // If your repo name is "my-app", change to "/my-app/".
-    base: '/-/',
+    base: "/",
 
     plugins: [react(), tailwindcss()],
     define: {
